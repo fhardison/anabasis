@@ -69,8 +69,8 @@ FOOTER ="""</div>
 <style>
     .wrapper {
         display: flex;
-        margin-top: 4px;
-        margin-bottom:4px;
+        margin: 4px;
+
     }
 
     .gr {
