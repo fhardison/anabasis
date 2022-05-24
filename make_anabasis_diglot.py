@@ -74,7 +74,8 @@ FOOTER ="""</div>
     }
 
     .gr {
-        flex:1
+        flex:1;
+        margin-right:2px;
     }
     .en { flex: 0;}
     .en-data { display: none; }
