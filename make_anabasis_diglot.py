@@ -17,6 +17,8 @@ def clean_english(xml):
     ET.strip_elements(xml, 'note', with_tail=False)
     ET.strip_tags(xml, 'placeName')
     ET.strip_tags(xml, 'persName')
+    ET.strip_tags(xml, 'del')
+    ET.strip_tags(xml, 'add')
 
     for x in xml.findall('//milestone[@unit="para"]'):
         prev = x.getprevious()
